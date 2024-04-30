@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+li {
+  @apply hover:underline hover:text-white cursor-pointer text-lg;
+}
+
+input {
+  @apply h-10 w-96 px-3 border border-black;
+}
+
+button {
+  @apply bg-white h-12 w-32 cursor-pointer hover:border border-2 hover:bg-gray-100;
+}
+
+button.btn {
+  @apply bg-white h-10 w-12 cursor-pointer hover:border border-2 hover:bg-gray-100;
+}
